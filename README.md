@@ -33,6 +33,60 @@ Whith a robust layered architeture and [PostgreSQL](https://www.postgresql.org/)
 
 ---
 
-## 📊 Diagram:
+## 📊 DSList Domain Model:
 ![diagram](https://github.com/user-attachments/assets/b45e8eb9-1b22-41cd-95ae-4d1b31189fe9)
 
+
+---
+
+## 🛠️ How to Install and Run
+
+### Clone the Repository:
+```bash
+git clone https://github.com/brunaSaNu/DSlist
+cd DSlist
+```
+---
+
+### Configure the Database:
+
+1. Make sure [PostgreSQL](https://www.postgresql.org/) is installed and running.  
+2. Update the database credentials in the `application.properties` file, located in the `src/main/resources` folder.
+
+---
+
+### Docker (Optional):
+
+If preferred, you can run the application using **Docker Compose** for easy setup:  
+
+```bash
+docker-compose up --build
+```
+
+---
+### Build and Run:
+
+To manually build and run the application using **Maven**, follow these steps:  
+
+```bash
+mvn clean install
+mvn spring-boot:run
+```
+### Acess the API
+
+- **Base URL**: `http://localhost:8080`
+
+---
+
+## 🧪 Testing Routes with Postman
+
+The routes can be tested using [Postman](https://www.postman.com/) with the following requests:
+
+- **GET /games**: Lists all registered games.  
+- **GET /games/{id}**: Returns detailed information about a specific game.  
+- **GET /lists**: Displays all available categories.  
+- **GET /lists/{id}/games**: Shows games organized by category.  
+- **POST /lists/replacement**: Sends a JSON payload to reorder games based on the user's preferences.
+
+
+I hope you enjoy organizing your game list! xoxo 😘💅
