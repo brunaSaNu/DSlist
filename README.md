@@ -29,5 +29,10 @@ Whith a robust layered architeture and [PostgreSQL](https://www.postgresql.org/)
 - **ORM**: [JPA](https://jakarta.ee/specifications/persistence/3.0/) / [Hibernate](https://hibernate.org/)  
 - **Testing Tool**: [Postman](https://www.postman.com/)  
 - **Docker**: [Docker](https://www.docker.com/) for containerization  
-- **Web Configuration**: Optimized web settings for performance and security  
+- **Web Configuration**: Optimized web settings for performance and security
+
+---
+
+## 📊 Diagram:
+![diagram](https://github.com/user-attachments/assets/b45e8eb9-1b22-41cd-95ae-4d1b31189fe9)
 
